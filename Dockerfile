@@ -1,8 +1,8 @@
-#import Virtual invironment
+#import Virtual environment
 FROM python:3.8-slim
 #put the author (optional but recomended)
 LABEL authors="Yevgen Moskalenko"
-#copy files in the current working
+#copy files in the current working directory
 COPY . /app
 #change the working Directory
 WORKDIR /app
